@@ -13,10 +13,10 @@ echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 echo ""
 sleep 1
 cd /usr/bin
-rm get-backres
+#rm get-backres
 rm backupmenu
 
-wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
+#wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
 wget -O backupmenu "${Git_Profile}/MENU/backupmenu.sh" && chmod +x /usr/bin/backupmenu
 cd
 clear
