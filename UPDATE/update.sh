@@ -1,5 +1,5 @@
 #!/bin/bash
-#Multiport Fallbacks By Vinstechmy
+#Multiport Fallback Lite By Vinstechmy
 red='\e[1;31m'
 green='\e[0;32m'
 purple='\e[0;35m'
@@ -15,9 +15,11 @@ sleep 1
 cd /usr/bin
 #rm get-backres
 rm backupmenu
+rm xp
 
 #wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
 wget -O backupmenu "${Git_Profile}/MENU/backupmenu.sh" && chmod +x /usr/bin/backupmenu
+wget -O xp "${Git_Profile}/OTHERS/xp.sh" && chmod +x /usr/bin/xp
 cd
 clear
 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
