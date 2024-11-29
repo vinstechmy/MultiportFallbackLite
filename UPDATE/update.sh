@@ -19,10 +19,14 @@ rm backupmenu
 rm menu
 rm menu-vless
 rm menu-xray
+rm dns
+rm limit-speed
 
 #rm xp
 
 wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
+wget -O dns "${Git_Profile}/OTHERS/dns.sh" && chmod +x /usr/bin/dns
+wget -O limit "${Git_Profile}/OTHERS/limit-speed.sh" && chmod +x /usr/bin/limit
 wget -O backupmenu "${Git_Profile}/MENU/backupmenu.sh" && chmod +x /usr/bin/backupmenu
 wget -O menu "${Git_Profile}/MENU/menu.sh" && chmod +x /usr/bin/menu
 wget -O menu-vless "${Git_Profile}/MENU/menu-vless.sh" && chmod +x /usr/bin/menu-vless
