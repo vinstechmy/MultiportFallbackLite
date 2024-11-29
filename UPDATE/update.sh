@@ -13,13 +13,22 @@ echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 echo ""
 sleep 1
 cd /usr/bin
-#rm get-backres
-rm backupmenu
-rm xp
 
-#wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
+rm get-backres
+rm backupmenu
+rm menu
+rm menu-vless
+rm menu-xray
+
+#rm xp
+
+wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
 wget -O backupmenu "${Git_Profile}/MENU/backupmenu.sh" && chmod +x /usr/bin/backupmenu
-wget -O xp "${Git_Profile}/OTHERS/xp.sh" && chmod +x /usr/bin/xp
+wget -O backupmenu "${Git_Profile}/MENU/menu.sh" && chmod +x /usr/bin/menu
+wget -O backupmenu "${Git_Profile}/MENU/menu-vless.sh" && chmod +x /usr/bin/menu-vless
+wget -O backupmenu "${Git_Profile}/MENU/menu-xray.sh" && chmod +x /usr/bin/menu-xray
+
+#wget -O xp "${Git_Profile}/OTHERS/xp.sh" && chmod +x /usr/bin/xp
 cd
 clear
 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
