@@ -24,9 +24,9 @@ rm menu-xray
 
 wget -O get-backres "${Git_Profile}/OTHERS/get-backres.sh" && chmod +x /usr/bin/get-backres
 wget -O backupmenu "${Git_Profile}/MENU/backupmenu.sh" && chmod +x /usr/bin/backupmenu
-wget -O backupmenu "${Git_Profile}/MENU/menu.sh" && chmod +x /usr/bin/menu
-wget -O backupmenu "${Git_Profile}/MENU/menu-vless.sh" && chmod +x /usr/bin/menu-vless
-wget -O backupmenu "${Git_Profile}/MENU/menu-xray.sh" && chmod +x /usr/bin/menu-xray
+wget -O menu "${Git_Profile}/MENU/menu.sh" && chmod +x /usr/bin/menu
+wget -O menu-vless "${Git_Profile}/MENU/menu-vless.sh" && chmod +x /usr/bin/menu-vless
+wget -O menu-xray "${Git_Profile}/MENU/menu-xray.sh" && chmod +x /usr/bin/menu-xray
 
 #wget -O xp "${Git_Profile}/OTHERS/xp.sh" && chmod +x /usr/bin/xp
 cd
