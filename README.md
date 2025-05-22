@@ -11,12 +11,12 @@
 <br>
 -VLESS WEBSOCKET NONE TLS (80) <br>
 <br>
-♦️ For Debian 10-12 (Latest) Only For First Time Installation (Update Repo) <br>
+♦️ For Debian 10 to 12 (Latest) Only For First Time Installation (Update Repo) <br>
 
   ```html
  apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
   ```
-  ♦️ For Ubuntu 18.04-24.04 (Latest) Only For First Time Installation (Update Repo) <br>
+  ♦️ For Ubuntu 18.04 to 24.04 (Latest) Only For First Time Installation (Update Repo) <br>
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
